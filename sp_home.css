@@ -1,0 +1,70 @@
+html
+	{
+		height: 100%
+	}
+
+	
+	body
+	{
+		min-height: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	.heading
+	{
+		text-align: center;
+		margin-top:5%;	
+		margin-bottom: 5%;: 	
+	}
+	.menuitem
+	{
+		position: relative;
+
+	}
+	.image
+	{
+ 	 	display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+  		width: 50%;
+	}
+	.aboutus
+	{
+ 		text-align:center;
+ 		padding: 10px;
+ 	}
+ 	.row
+ 	{
+ 		padding: 10px;
+ 	}
+ 	footer
+ 	{
+	   margin-top: auto;
+	   background-color: #A9A9A9;
+	   color: black;
+	   text-align: center;
+	}
+	
+	
+		.sendbtn
+		{
+			background-color: black;
+			color: white;
+			border: 2px solid #555555;
+			padding: 10px 30px;
+			border-radius: 12px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;	
+			margin-top: 20px;
+			align-content: center;	
+			width: 25%;	
+			
+		}
+		.sendbtn:hover 
+		{
+		  background-color: grey;
+		  color: black;
+		}
+		
